@@ -1,6 +1,7 @@
 ---
 title: "Certificaten importeren in Intramed"
 description: "In Intramed kun je certificaten toevoegen om gegevens op te halen en te controleren of om te kunnen declareren. Hiervoor heb je verschillende certificaten nodig. Deze certificaten kun je zelf aanvragen en/of verlengen en importeren in Intramed. Op deze pagina lees je hoe je dit zelf kunt doen voor de verschillende diensten. "
+mode: "wide"
 ---
 
 <AccordionGroup>
@@ -15,7 +16,40 @@ description: "In Intramed kun je certificaten toevoegen om gegevens op te halen 
     De vervolgstappen 2a, 2b laten je zien hoe je in jouw Intramed omgeving het systeemcertificaat kunt importeren. Het is alleen nodig om de stappen te doorlopen van de Intramed omgeving die jij gebruikt. 
 
     **Softwareleverancier doorgeven aan VECOZO**\
-    Om gebruik te maken van de VECOZO diensten binnen Intramed dien je “Convenient” als softwareleverancier door te geven op de website van VECOZO.  [Lees hier de instructie hoe je dit kan doen.  ](https://www.vecozo.nl/support/controle-op-ip-adressen/gebruik-maken-van-een-softwarepartij/ik-maak-gebruik-van-een-online-softwarepakket-zonder-gebruik-van-toestemmingsverklaringen.-wat-is-hiervan-het-gevolg-voor-het-registreren-van-de-ip-adressen/)
+    Om gebruik te maken van de VECOZO diensten binnen Intramed dien je “Convenient” als softwareleverancier door te geven op de website van VECOZO.  [Lees hier de instructie hoe je dit kan doen.  ](https://www.vecozo.nl/support/controle-op-ip-adressen/gebruik-maken-van-een-softwarepartij/ik-maak-gebruik-van-een-online-softwarepakket-zonder-gebruik-van-toestemmingsverklaringen.-wat-is-hiervan-het-gevolg-voor-het-registreren-van-de-ip-adressen/)\
+    \
+    **Certificaat importeren in de online omgeving**\
+    Om het certificaat te importeren in de online omgeving van Intramed is het belangrijk om het volledige stappenplan te doorlopen.
+
+    1. Ga in Intramed via menu naar [Systeem], [Organisatie], [Certificaatbeheer].
+    2. Importeer je het systeemcertificaat op een Mac?
+    3. Dan dien je voor je het certificaat importeert, de extensie van het bestand te wijzigen van .p12 naar .pfx.
+
+    Dit kun je doen als volgt: Open de map waar het geëxporteerde certificaat zich bevindt en klik met de rechtermuisknop op het certificaatbestand en kies voor “Hernoem” (of druk op Enter na het selecteren van het bestand). Verander de bestandsextensie van .p12 naar .pfx (bijvoorbeeld certificaat.p12 wordt certificaat.pfx), bevestig de wijziging als macOS vraagt of je zeker weet dat je de extensie wilt veranderen.
+
+    Klik op ‘Opties’, ‘Importeren’. Zoek en selecteer het certificaat. Klik op ‘Openen’.
+
+    Vul het wachtwoord in dat je hebt verzonnen tijdens het exporteren. Laat het type op ‘Openbaar’ staan als je collega’s hier ook gebruik van mogen maken. Klik op ‘OK’. Het certificaat wordt toegevoegd aan de lijst:
+
+    Dubbelklik op je net toegevoegde certificaat.
+
+    Je kunt nu aan de rechterkant de juiste online diensten koppelen waar je een VECOZO-certificaat voor nodig hebt. Voor een VECOZO certificaat zijn “COV via VECOZO” en “Declareren via VECOZO” of “VECOZO”.
+
+    Declareer je via informedics (D-pay, D-pay lite of servicebureau)?
+
+    Wanneer je van een van bovenstaande diensten gebruik maakt, declareer je niet via VECOZO en hoef je de online dienst ‘Declareren via Vecozo of Vecozo’ niet toe te voegen.
+
+    Ga in de lijst ‘Online diensten:’ naar een nieuwe regel. Klik op  in de kolom ‘Nr’.
+
+    Klik op de juiste dienst en op ‘OK’.
+
+    Bewaar de gegevens en sluit alle schermen, het certificaat is nu geïmporteerd en ingesteld.
+
+    Wanneer je dit gedaan hebt, kun je bij een patient een COV check uitvoeren om te controleren of het certificaat wat je hebt toegevoegd werkt.
+
+    Softwareleverancier doorgeven aan VECOZO
+
+    Om gebruik te maken van de VECOZO diensten binnen Intramed dien je “Convenient” als softwareleverancier door te geven op de website van VECOZO.  Lees hier de instructie hoe je dit kan doen.  
   </Accordion>
   <Accordion title="UZI" icon="chalkboard-user">
     **Aanvragen, installeren of verlengen van een UZI-servercertificaat i.c.m. Intramed Compleet of Online.**\
@@ -27,6 +61,6 @@ description: "In Intramed kun je certificaten toevoegen om gegevens op te halen 
     4. Wanneer wij de omzetting naar een certificaat hebben gedaan, krijg je deze van ons opgestuurd. Dit certificaat is versleuteld met een wachtwoord die het zelfde is als het wachtwoord van bijlage II.  Indien je dit wachtwoord niet meer weet, laat de primaire contactpersoon dan contact opnemen met de helpdesk.
     5. Volg zodra je alle gegevens hebt, de vervolgstappen op Stap 2 om het certificaat te importeren.  
 
-    **Let op! **Deze stappen gelden alleen voor Intramed Compleet/Online gebruikers.
+    \*\*Let op! \*\*Deze stappen gelden alleen voor Intramed Compleet/Online gebruikers.
   </Accordion>
 </AccordionGroup>
